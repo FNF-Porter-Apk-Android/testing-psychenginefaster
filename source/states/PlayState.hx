@@ -1140,7 +1140,7 @@ class PlayState extends MusicBeatState
 		}
 
 		scoreTxt.text = 'Score: ' + songScore
-		+ ' | Misses: ' + songMisses
+		+ ' | PORTED BY GLAUBER01 | Misses: ' + songMisses
 		+ ' | Rating: ' + str;
 
 		if(ClientPrefs.data.scoreZoom && !miss && !cpuControlled)
